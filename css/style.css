@@ -1,0 +1,51 @@
+body{
+	font-family: "Tahoma";
+	color: #3E3E3E !important;
+	background-color: #F6F6F6;
+}
+/*atur font size*/
+form, input, option,select, textarea{
+	font-size: 14px !important;
+}
+/*table*/
+table{
+	font-size: 12px;
+}
+select, option{
+	cursor: pointer;
+}
+
+/*font judul*/
+@media screen and (max-width: 578px){
+
+	#wrapper h2{
+		font-size: 18px !important;
+	}
+	
+}
+/*table*/
+th{
+	background-color: #92ACFF !important;
+	vertical-align: middle;
+}
+
+/*costum scrollbar*/
+::-webkit-scrollbar{
+	width: 17px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #d6dee1;
+	border-radius: 20px;
+	border: 5px solid transparent;
+	background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #a8bbbf;
+}
+::-webkit-scrollbar-track{
+	background-color: transparent;
+}
+/*hapus iklan*/
+.disclaimer{
+	display: none !important;
+}
